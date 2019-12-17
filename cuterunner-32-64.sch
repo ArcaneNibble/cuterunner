@@ -311,17 +311,6 @@ F 3 "~" H 1650 9150 50  0001 C CNN
 	1    1650 9150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x06_Row_Letter_Last J2
-U 1 1 5DFA98DA
-P 9600 9800
-F 0 "J2" H 9650 10217 50  0000 C CNN
-F 1 "Conn_02x06_Row_Letter_Last" H 9650 10126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9600 9800 50  0001 C CNN
-F 3 "~" H 9600 9800 50  0001 C CNN
-	1    9600 9800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 2150 3800 2150
 Wire Wire Line
@@ -1005,19 +994,9 @@ F 3 "" H 10000 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 10100 9900 10100
-Wire Wire Line
-	9900 10100 10000 10100
-Wire Wire Line
 	10000 10100 10000 9400
-Connection ~ 9900 10100
-Wire Wire Line
-	9900 10000 9400 10000
-Wire Wire Line
-	9400 10000 9300 10000
 Wire Wire Line
 	9300 10000 9300 10350
-Connection ~ 9400 10000
 Wire Wire Line
 	11400 6300 12050 6300
 Wire Wire Line
@@ -1545,9 +1524,7 @@ Wire Wire Line
 	12600 2100 12300 2100
 Connection ~ 12600 2100
 Connection ~ 12300 2100
-Wire Wire Line
-	13950 2100 14300 2100
-Text Label 14050 2100 0    50   ~ 0
+Text Label 14550 2100 0    50   ~ 0
 CLK0
 Wire Notes Line
 	4750 8250 4750 11250
@@ -1591,4 +1568,40 @@ Wire Wire Line
 	8150 5950 8850 5950
 Text Notes 550  600  0    50   ~ 0
 Power supplies
+$Comp
+L Device:R R15
+U 1 1 5DFC2966
+P 14200 2100
+F 0 "R15" V 13993 2100 50  0000 C CNN
+F 1 "22" V 14084 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 14130 2100 50  0001 C CNN
+F 3 "~" H 14200 2100 50  0001 C CNN
+	1    14200 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J2
+U 1 1 5DFC5171
+P 9600 9800
+F 0 "J2" H 9650 10217 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 9650 10126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 9600 9800 50  0001 C CNN
+F 3 "~" H 9600 9800 50  0001 C CNN
+	1    9600 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 10000 9400 10000
+Wire Wire Line
+	9900 10100 10000 10100
+Wire Wire Line
+	13950 2100 14050 2100
+Wire Wire Line
+	14350 2100 14850 2100
+Wire Wire Line
+	9900 10000 9400 10000
+Connection ~ 9400 10000
+Wire Wire Line
+	9400 10100 9900 10100
+Connection ~ 9900 10100
 $EndSCHEMATC

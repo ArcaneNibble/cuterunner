@@ -72,11 +72,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x06_Row_Letter_Last
+# Connector_Generic_Conn_02x06_Odd_Even
 #
-DEF Connector_Generic_Conn_02x06_Row_Letter_Last J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x06_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic_Conn_02x06_Row_Letter_Last" 50 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -96,18 +96,18 @@ S 150 -95 100 -105 1 1 6 N
 S 150 5 100 -5 1 1 6 N
 S 150 105 100 95 1 1 6 N
 S 150 205 100 195 1 1 6 N
-X Pin_1a 1a -200 200 150 R 50 50 1 1 P
-X Pin_1b 1b 300 200 150 L 50 50 1 1 P
-X Pin_2a 2a -200 100 150 R 50 50 1 1 P
-X Pin_2b 2b 300 100 150 L 50 50 1 1 P
-X Pin_3a 3a -200 0 150 R 50 50 1 1 P
-X Pin_3b 3b 300 0 150 L 50 50 1 1 P
-X Pin_4a 4a -200 -100 150 R 50 50 1 1 P
-X Pin_4b 4b 300 -100 150 L 50 50 1 1 P
-X Pin_5a 5a -200 -200 150 R 50 50 1 1 P
-X Pin_5b 5b 300 -200 150 L 50 50 1 1 P
-X Pin_6a 6a -200 -300 150 R 50 50 1 1 P
-X Pin_6b 6b 300 -300 150 L 50 50 1 1 P
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 300 -300 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
