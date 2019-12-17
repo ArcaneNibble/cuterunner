@@ -908,13 +908,13 @@ IFACE2
 Text Label 14600 6600 0    50   ~ 0
 IFACE3
 Text Label 14600 6700 0    50   ~ 0
-IFACE4
-Text Label 14600 6800 0    50   ~ 0
-IFACE5
-Text Label 14600 6900 0    50   ~ 0
-IFACE6
-Text Label 14600 7000 0    50   ~ 0
 IFACE7
+Text Label 14600 6800 0    50   ~ 0
+IFACE6
+Text Label 14600 6900 0    50   ~ 0
+IFACE5
+Text Label 14600 7000 0    50   ~ 0
+IFACE4
 Text Label 14450 5500 0    50   ~ 0
 IFACE_CTRL0
 Text Label 14450 5600 0    50   ~ 0
@@ -1604,4 +1604,9 @@ Connection ~ 9400 10000
 Wire Wire Line
 	9400 10100 9900 10100
 Connection ~ 9900 10100
+Wire Wire Line
+	3150 2450 3250 2450
+Wire Wire Line
+	3250 2450 3250 2550
+Connection ~ 3250 2550
 $EndSCHEMATC
