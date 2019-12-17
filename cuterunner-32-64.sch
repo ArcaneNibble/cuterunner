@@ -1490,4 +1490,63 @@ Wire Wire Line
 Connection ~ 12100 4700
 Text Label 12250 4700 0    50   ~ 0
 CLK2
+$Comp
+L azonenberg-osc:OSC U?
+U 1 1 5E192FE7
+P 8600 4300
+F 0 "U?" H 8575 4587 60  0000 C CNN
+F 1 "OSC" H 8575 4481 60  0000 C CNN
+F 2 "" H 8600 4300 60  0000 C CNN
+F 3 "" H 8600 4300 60  0000 C CNN
+	1    8600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E193E24
+P 7600 4450
+F 0 "C?" H 7486 4404 50  0000 R CNN
+F 1 "0.1uF" H 7486 4495 50  0000 R CNN
+F 2 "" H 7638 4300 50  0001 C CNN
+F 3 "~" H 7600 4450 50  0001 C CNN
+	1    7600 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E19481A
+P 7600 4300
+F 0 "#PWR?" H 7600 4150 50  0001 C CNN
+F 1 "+3V3" H 7615 4473 50  0000 C CNN
+F 2 "" H 7600 4300 50  0001 C CNN
+F 3 "" H 7600 4300 50  0001 C CNN
+	1    7600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1951AF
+P 7600 4600
+F 0 "#PWR?" H 7600 4350 50  0001 C CNN
+F 1 "GND" H 7605 4427 50  0000 C CNN
+F 2 "" H 7600 4600 50  0001 C CNN
+F 3 "" H 7600 4600 50  0001 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4500 7900 4600
+Wire Wire Line
+	7900 4600 7600 4600
+Connection ~ 7600 4600
+Wire Wire Line
+	7900 4400 7900 4300
+Wire Wire Line
+	7900 4300 7600 4300
+Connection ~ 7900 4300
+Connection ~ 7600 4300
+Wire Wire Line
+	9250 4300 9600 4300
+Text Label 9350 4300 0    50   ~ 0
+CLK0
 $EndSCHEMATC

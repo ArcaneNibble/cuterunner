@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name azonenberg-xilinx)(type Legacy)(uri /home/rqou/EE/azonenberg-kicad-libraries/schematic/xilinx-azonenberg.lib)(options "")(descr ""))
   (lib (name rqou)(type Legacy)(uri /home/rqou/EE/rqou-kicad-libs/rqou.lib)(options "")(descr ""))
+  (lib (name azonenberg-osc)(type Legacy)(uri /home/rqou/EE/azonenberg-kicad-libraries/schematic/osc-azonenberg.lib)(options "")(descr ""))
 )
